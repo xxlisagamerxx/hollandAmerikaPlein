@@ -10,11 +10,26 @@ body {
     color: #290023;
 }
 
+main {
+    background-color: #EFFFEB;
+    padding: 15px;
+}
+
+section {
+    padding: 15px;
+}
+
+article{
+    padding: 15px;
+}
 img{
+    padding: 10px;
     float: left;
     width: 20%;
     height: 45%;
-    object-fit: cover;
+    object-fit: contain;
+    border-radius: 8px;
+
 }
 
 @media screen and (max-width: 800px) {
@@ -43,25 +58,25 @@ nav a {
     width: 25%;
 }
 nav a:nth-child(1) {
-    /* Change the background and border color of the last menu item */
+    /* Change the first button of nav colours */
     background: #3B2E61;
     border-radius: 3px;
     border-color: #3B2E61;
 }
 nav a:nth-child(2) {
-    /* Change the background and border color of the last menu item */
+    /* Change the second button of nav colours */
     background: #086375;
     border-radius: 3px;
     border-color: #086375;
 }
 nav a:nth-child(3) {
-    /* Change the background and border color of the last menu item */
+    /* Change the third button of nav colours */
     background: #16A286;
     border-radius: 3px;
     border-color: #16A286;
 }
 nav a:nth-child(4) {
-    /* Change the background and border color of the last menu item */
+    /* Change the fourth button of nav colours */
     background: #3B2E61;
     border-radius: 3px;
     border-color: #3B2E61;
@@ -85,12 +100,6 @@ nav a:nth-child(4):hover {
     color: black;
 }
 
-/* Style the content */
-.content {
-    background-color: #EFFFEB;
-    padding: 15px;
-}
-
 /* Style the footer */
 footer {
     background-color: #1DD3B0;
@@ -98,7 +107,7 @@ footer {
     color: #520045;
 }
 
-/* On screens that are 800px or less, */
+/* On screens that are 600px or less, */
 @media screen and (max-width: 600px) {
     /* Style the topnav links */
     nav a {
